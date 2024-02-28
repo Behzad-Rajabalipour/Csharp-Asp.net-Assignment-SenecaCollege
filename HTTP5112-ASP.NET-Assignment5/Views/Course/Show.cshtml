@@ -1,0 +1,11 @@
+﻿@model HTTP5112Assignment5.Models.Course
+@{
+    ViewBag.Title = "Show";
+}
+
+<a class="navlink" href="/Course/List">Back To Classes</a>
+<div id="containershow">
+    <h2>@Model.CourseCode - @Model.CourseName</h2>
+    <p>This class is taught by <a href="/Teacher/Show/@ViewBag.Teacher.TeacherId">@ViewBag.Teacher.TeacherFname @ViewBag.Teacher.TeacherLname</a></p>
+    <p>starts on @Model.StartDate and ends on @Model.FinishDate</p>
+</div>

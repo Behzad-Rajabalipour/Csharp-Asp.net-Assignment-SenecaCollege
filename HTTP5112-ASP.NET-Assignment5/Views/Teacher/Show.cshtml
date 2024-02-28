@@ -1,0 +1,29 @@
+﻿@model HTTP5112Assignment5.Models.Teacher
+@{
+    ViewBag.Title = "Show";
+}
+
+<a class="navlink" href="/Teacher/List">Back To Teachers</a>
+<a class="navlink" href="/Teacher/Update/@Model.TeacherId">Update</a>
+<a class="navlink" href="/Teacher/DeleteConfirm/@Model.TeacherId" style="color: red;">Delete Teacher</a>
+
+<div id="containershow">
+    <h2>@Model.TeacherFname @Model.TeacherLname</h2>
+    <p>Teacher Employee Number: @Model.EmployeeNumber</p>
+    <p>Teacher Hire Date: @Model.HireDate</p>
+    <p>Teacher Salary: @Model.Salary</p>
+    @if (ViewBag.courses.Count > 0)
+    {
+        <p>classes</p>
+        <ul>
+            @foreach (var Course in ViewBag.courses)
+            {
+                <li><a href="/Course/Show/@Course.CourseId">@Course.CourseCode - @Course.CourseName</a></li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p>This teacher does not teach any classes right now.</p>
+    }
+</div>

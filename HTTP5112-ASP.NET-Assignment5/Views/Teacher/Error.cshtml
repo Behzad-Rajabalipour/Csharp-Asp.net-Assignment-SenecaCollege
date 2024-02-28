@@ -1,0 +1,67 @@
+﻿@model HTTP5112Assignment5.Models.Teacher
+
+@{
+    ViewBag.Title = "Error";
+}
+
+
+<div id="containershow">
+    <nav>
+        @if (ViewBag.from == "Create")
+        {
+            <a class="navlink" href="/Teacher/New">Back to add teacher</a>
+        }
+        else
+        {
+            <a class="navlink" href="/Teacher/Show/@Model.TeacherId">Back to teacher's profile</a>
+        }
+    </nav>
+    @if (ViewBag.from == "Create")
+    {
+        <h2>The teacher cannot be added because some of the information provided is invalid:</h2>
+    }
+    else
+    {
+        <h2>The teacher cannot be updated because some of the information provided is invalid:</h2>
+    }
+    @if (Model.TeacherFname == null)
+    {
+        <p>First Name: <span style="color: red;">Missing</span></p>
+    }
+    else
+    {
+        <p>First Name: @Model.TeacherFname</p>
+    }
+    @if (Model.TeacherLname == null)
+    {
+        <p>Last Name: <span style="color: red;">Missing</span></p>
+    }
+    else
+    {
+        <p>Last Name: @Model.TeacherLname</p>
+    }
+    @if (Model.EmployeeNumber == null)
+    {
+        <p>Employee Number: <span style="color: red;">Missing</span></p>
+    }
+    else
+    {
+        <p>Employee Number: @Model.EmployeeNumber</p>
+    }
+    @if (Model.HireDate == null)
+    {
+        <p>Hire Date: <span style="color: red;">Missing or is not a valid date format</span></p>
+    }
+    else
+    {
+        <p>Hire Date: @Model.HireDate</p>
+    }
+    @if (float.IsNaN(Model.Salary) == true)
+    {
+        <p>Salary: <span style="color: red;">Missing or is not a number</span></p>
+    }
+    else
+    {
+        <p>Salary: @Model.Salary</p>
+    }
+</div>

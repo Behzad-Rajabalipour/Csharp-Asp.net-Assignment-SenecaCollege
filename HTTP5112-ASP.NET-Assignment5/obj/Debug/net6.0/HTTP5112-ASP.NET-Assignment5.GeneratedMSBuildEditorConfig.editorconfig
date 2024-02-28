@@ -1,0 +1,88 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HTTP5112_ASP.NET_Assignment5
+build_property.RootNamespace = HTTP5112_ASP.NET_Assignment5
+build_property.ProjectDir = /Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Course/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Course/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ291cnNlL1Nob3cuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Student/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Student/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9TaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/Ajax_New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9BamF4X05ldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/DeleteConfirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9EZWxldGVDb25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9FcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9OZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/Show.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9TaG93LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Teacher/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGVhY2hlci9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leeraymond/Documents/Web Development/HTTP5112/ASP.NET/HTTP5112-ASP.NET-Assignment5/HTTP5112-ASP.NET-Assignment5/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-48gyp1gvd5

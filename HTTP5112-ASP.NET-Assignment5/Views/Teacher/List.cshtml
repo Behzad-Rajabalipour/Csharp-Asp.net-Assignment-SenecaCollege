@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HTTP5112Assignment5.Models.Teacher>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+@if (ViewBag.SearchKey != null)
+{
+    <p>This page should be showing information about Teachers whose name contains @ViewBag.SearchKey.</p>
+}
+else
+{
+    <p>This page should be showing information about all Teachers</p>
+}
+<form action="/Teacher/List" method="GET">
+    <input type="text" name="SearchKey" autocomplete="off" />
+    <input type="submit" value="Search" />
+</form>
+<a class="navlink" href="/Teacher/New">Add Teacher</a>
+<div id="containerlist">
+    <h2>List of Teachers</h2>
+    @if (!@Model.Any())
+    {
+        <p>There is no teacher Whose name contains @ViewBag.SearchKey.</p>
+    }
+    else
+    {
+        foreach (var teacher in Model)
+        {
+            <div class="listitem row">
+                <div class="col-md-12"><a href="/Teacher/Show/@teacher.TeacherId">@teacher.TeacherFname @teacher.TeacherLname</a></div>
+            </div>
+        }
+    }
+</div>

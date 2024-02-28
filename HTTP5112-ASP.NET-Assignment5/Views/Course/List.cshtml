@@ -1,0 +1,17 @@
+﻿@model IEnumerable<HTTP5112Assignment5.Models.Course>
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+<p>This page should be showing information about all classes</p>
+
+<div id="containerlist">
+    <h2>List of Classes</h2>
+    @foreach (var Course in Model)
+    {
+        <div class="listitem row">
+            <div class="col-md-12"><a href="/Course/Show/@Course.CourseId">@Course.CourseCode - @Course.CourseName</a></div>
+        </div>
+    }
+</div>
