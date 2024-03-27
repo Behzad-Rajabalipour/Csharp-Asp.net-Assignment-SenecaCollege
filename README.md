@@ -1,7 +1,7 @@
 ﻿# Humber College - Web Development Program - HTTP5112 - ASP.NET - Assignment 5
 
 This repo connects to the school database which contains tables for teachers, students, classe, etc. The [Controller](https://github.com/raymondleemv/HTTP5112-ASP.NET-Assignment5/tree/master/HTTP5112-ASP.NET-Assignment5/Controllers) folder contains different controller files to retrieve information from the database.
-
+ 
 ## Minimum Viable Product (MVP)
 
 ### User can view list of teachers
